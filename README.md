@@ -99,6 +99,9 @@ How about Foodubs that are open Monday through Friday and Vendors that have pick
 ###Singleton Foodhubs
 To simplify specs we have singleton foodhubs in the specs for `Factory.foodhubs.sfbay` and `Factory.foodhubs.nyc`
 
+###Clock.now() same on server and client
+`window.serverNow` embedded in client
+
 ## Stubbing Clock.now()
 Market specs are easier to understand when you know what today is.
 
